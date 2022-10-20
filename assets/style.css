@@ -1,0 +1,68 @@
+*,
+.html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(240, 255, 242);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+main {
+  max-width: 600px;
+}
+
+nav {
+  display: flex;
+  padding: 12px;
+  margin-left: auto;
+  font-size: 28px;
+}
+
+h1 {
+  padding: 12px
+}
+
+nav a {
+  margin: 4px;
+  text-decoration: none;
+  color: rgb(162, 184, 18);
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  margin-bottom: 12px;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.repo {
+  color: rgb(2, 0, 112);
+  text-align: center;
+}
+
+
+
+/* @media screen and (max-width: 576px) {
+  flex-direction: column;
+} */
