@@ -6,11 +6,20 @@ body {
   background-color: rgb(240, 255, 242);
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 19%;
+}
+
 .links {
   font-size: 40px;
   margin-right: 1px;
   float: right;
   flex-wrap: wrap;
+  justify-content: end;
+  width: 80%;
+  display: flex;
 }
 
 nav a {
@@ -23,14 +32,13 @@ nav a {
 
 h1 {
   font-size: 40px;
-  margin-left: 19%;
+  /* margin-left: 19%; */
   padding-bottom: 1px;
 }
 
 #profile {
   display: inline;
   max-width: 100%;
-  margin-left: 19%;
 }
 
 
@@ -69,7 +77,11 @@ p {
 
 #javascript {
   height: 500px;
-  width: 1400px;
+  width: 700px;
+}
+
+#api {
+  height: 500px;
 }
 
 h2 {
