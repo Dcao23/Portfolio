@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgb(240, 255, 242);
+  background-color: rgb(240, 244, 255);
 }
 
 header {
@@ -27,7 +27,7 @@ nav a {
   padding: 35px;
   flex-wrap: wrap;
   text-decoration: none;
-  color: rgb(162, 184, 18);
+  color: black;
 }
 
 h1 {
@@ -88,6 +88,11 @@ h2 {
   font-size: 28px;
   margin-bottom: 16px;
   text-align: center;
+}
+
+.pageLinks {
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 1000px) {
